@@ -102,7 +102,7 @@ https://en.wikipedia.org/wiki/Sign_language
 
 Arboresign, une bibliothèque de signes universelle, vectorielle, et libre
 
-http://www.signotheque.arboresign.org/ 
+https://www.signotheque.arboresign.org/ 
 
   * Bibliothèque ~~de vidéos~~ d'**images** 
   * Ensemble de composants graphiques à combiner
@@ -116,7 +116,7 @@ http://www.signotheque.arboresign.org/
   
   Editeur 2D collaboratif
   
- <img src="http://signotheque.github.io/website/images/assemble.png" width="600">
+ <img src="https://signotheque.github.io/website/images/assemble.png" width="600">
 
 
 ---
@@ -124,7 +124,7 @@ http://www.signotheque.arboresign.org/
 
 ## Exemple de résultat
     
- <img src="http://signotheque.github.io/website/images/lexique-plateforme-iconicite.png" width="400">
+ <img src="https://signotheque.github.io/website/images/lexique-plateforme-iconicite.png" width="400">
 
 
 ---
