@@ -1,0 +1,27 @@
+{
+  "name": "arboresign",
+  "version": "0.0.1",
+  "description": "présentation arboresign signothèque",
+  "main": "slides.md",
+  "config" : { "decktape_root" : "/home/nop/dev" },
+  "scripts": {
+    "dev": "reveal-md src/slides.md -w",
+    "build": "reveal-md src/slides.md --static . && cp -R src/img .",
+    "test": "http-server .",
+    "export": "$npm_package_config_decktape_root/phantomjs $npm_package_config_decktape_root/decktape-1.0.0/decktape.js http://localhost:1948/slides.md#/ slides.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvivanloc/arboresign.git"
+  },
+  "keywords": [
+    "reveal-md",
+    "signotheque"
+  ],
+  "author": "v vincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vvivanloc/arboresign/issues"
+  },
+  "homepage": "https://github.com/vvivanloc/arboresign#readme"
+}

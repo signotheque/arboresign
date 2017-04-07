@@ -8,11 +8,17 @@ revealOptions:
 
 
 
-# Arboresign
-Proposition de prototype, avril 2017
-<br><br><br><br>
+# Signothèque
 
-<small>[format PDF](slides.pdf)</small>
+
+
+
+Proposition de prototype, avril 2017
+
+<br>
+<small>version alpha 0.1</small><br><br><br>
+
+<small>[sources](https://github.com/vvivanloc/arboresign) et [export PDF](slides.pdf)</small>
 
 ---
 
@@ -43,7 +49,7 @@ Relief en béton de langue des signes à Prague : « La vie est belle, soyez heu
   * La surdité en France
   * La langue des signes
   * Bibliothèques existantes
-  * Projet Arboresign
+  * Projet Arboresign/Signothèque
 
 ---
 
@@ -97,10 +103,9 @@ https://en.wikipedia.org/wiki/Sign_language
 
 ---
 
+## Projet Arboresign/Signothèque
 
-## Projet Arboresign
-
-Arboresign, une bibliothèque de signes universelle, vectorielle, et libre
+Signothèque, une bibliothèque de signes universelle, vectorielle, et libre
 
 https://www.signotheque.arboresign.org/ 
 
@@ -428,7 +433,7 @@ Par le créateur des fonts ASL : [sign-puppet](https://github.com/aslfont/sign-p
 
 ## Conclusion
 
-- Arboresign : une bibliothèque de signes 2D
+- Signothèque : une bibliothèque de signes 2D
 - Pas d'application existante pour générer cette bibliothèque
 - Créer une plateforme d'édition collaborative en partant du projet github *sign puppet*
 
