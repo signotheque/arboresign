@@ -22,7 +22,7 @@ The presentation is available at: http://localhost:1948/slides.md#/
       
 ## Compilation stage
 
-To be served without reveal-md, the presentation has to be compiled as a static website. It is written in the ` _static` directory
+To be served without reveal-md, the presentation has to be compiled as a static website. It is written in the current directory
 
       npm run build
 
@@ -30,9 +30,11 @@ or
 
       reveal-md slides.md --static
 
-It can be served via a simple http-server:       http://127.0.0.1:8080/_static   
+It can be served via a simple http-server:       http://127.0.0.1:8080
 
 ## PDF export
+
+Requirements: the presentation must be compiled as static and served via http://127.0.0.1:8080
 
 The presentation is exported in PDF thru [DeckTape](https://github.com/astefanutti/decktape) in the file `slides.pdf`.
 
@@ -41,7 +43,7 @@ The presentation is exported in PDF thru [DeckTape](https://github.com/astefanut
 
 or 
 
-      phantomjs decktape-1.0.0/decktape.js http://localhost:1948/slides.md#/ slides.pdf
+      phantomjs decktape-1.0.0/decktape.js http://127.0.0.1:8080 slides.pdf
   
 
 

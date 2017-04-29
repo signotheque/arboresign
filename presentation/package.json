@@ -8,7 +8,7 @@
     "dev": "reveal-md src/slides.md -w",
     "build": "reveal-md src/slides.md --static . && cp -R src/img .",
     "test": "http-server .",
-    "export": "$npm_package_config_decktape_root/phantomjs $npm_package_config_decktape_root/decktape-1.0.0/decktape.js http://localhost:1948/slides.md#/ slides.pdf"
+    "export": "$npm_package_config_decktape_root/phantomjs $npm_package_config_decktape_root/decktape-1.0.0/decktape.js http://127.0.0.1:8080 slides.pdf"
   },
   "repository": {
     "type": "git",
